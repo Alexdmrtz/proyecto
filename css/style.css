@@ -446,3 +446,62 @@ footer {
     padding: 50px;
 }
 
+/*Responsive Inicio*/
+
+@media (max-width:900px) {
+    .menu {
+        padding-top: 10px;
+    }
+
+    header ul{
+        flex-direction: column;
+        margin-top: 30px;
+    }
+
+    nav {
+        background: #000;
+        width: 100%;
+        position: absolute;
+        top: 45px;
+        left: 0;
+        display: none;
+    }
+
+    nav ul li {
+        margin-bottom: 20px;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+
+    .contenedor-tarjetas {
+        flex-direction: column;
+    }
+
+    .tarjeta {
+        width: 100%;
+    }
+
+    #segunda-tarjeta {
+        margin: 0;
+    }
+
+    #ultima-tarjeta {
+        margin-top: 1px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

@@ -16,6 +16,7 @@
             <div class="contenedor">
                 <div class="menu">
                     <img src="" alt="">
+                    <img class="menu-icon" src="./imagenes/menu-regular-24.png" alt="">
                     <nav>
                         <ul>
                             <li><a href="index.html">Inicio</a>
@@ -56,7 +57,7 @@
                         <a href="Leer mas..."></a>
                     </div>
                     
-                    <div class="tarjeta">
+                    <div id="ultima-tarjeta" class="tarjeta">
                         <img src="./imagenes/icon-3.png" alt="">
                         <h3>ENTRENAMIENTOS DE CARDIO</h3>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel consequatur voluptatibus sunt rem neque deleniti cum magnam odio atque, repudiandae corrupti beatae animi similique laborum nostrum! Totam corporis temporibus aliquid!</p>
@@ -234,9 +235,13 @@
         })
     
         })
+
+        $('.menu-icon').click(function(){
+            $('nav').slideToggle();
+        })
     
     
-        </script>
+    </script>
 
 
     </body>
