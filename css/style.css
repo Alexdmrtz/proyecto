@@ -446,7 +446,11 @@ footer {
     padding: 50px;
 }
 
-#clases-mobile {
+#cuadro-mobile {
+    display: none;
+}
+
+.menu-icon {
     display: none;
 }
 
@@ -515,10 +519,14 @@ footer {
         width: 100%;
     }
     .social-icons i {
-        font-size: 2rem;
+        font-size: 1rem;
         color: #3bcc75;
-        padding: .8rem 1rem;
+        padding: .5rem 1rem;
         
+    }
+
+    .menu-icon {
+        display: block;
     }
 
 
