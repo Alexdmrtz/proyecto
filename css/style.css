@@ -446,6 +446,10 @@ footer {
     padding: 50px;
 }
 
+#clases-mobile {
+    display: none;
+}
+
 /*Responsive Inicio*/
 
 @media (max-width:900px) {
@@ -475,7 +479,7 @@ footer {
         font-size: 35px;
     }
 
-    .contenedor-tarjetas {
+    .contenedor-tarjetas, #galeria {
         flex-direction: column;
     }
 
@@ -490,6 +494,33 @@ footer {
     #ultima-tarjeta {
         margin-top: 1px;
     }
+
+    table {
+        display: none;
+    }
+
+    #cuadro-mobile {
+        display: block;
+        text-align: center;
+        padding: 10px;
+
+    }
+
+    .contenedor p{
+        padding: 5px;
+        
+    }
+
+    #galeria .foto {
+        width: 100%;
+    }
+    .social-icons i {
+        font-size: 2rem;
+        color: #3bcc75;
+        padding: .8rem 1rem;
+        
+    }
+
 
 
 
