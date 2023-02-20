@@ -317,40 +317,10 @@ footer {
 
 /*Main-Sobre Nosotros*/
 
-.recipiente {
-    margin: auto;
-}
-
-.seccion_2 {
-    width: 75%;
-    margin: auto;
-    padding: 100px 0;
-}
-
-.seccion_2-titulo {
-    font-size: 40px;
-    background: #000;
-    color: #c2e71f;
-}
-
 .nosotros {
-    display: flex;
-}
-
-.nosotros-texto {
-    width: 60%;
-    padding: 10px 10% 0 10px ;
-}
-
-.nosotros-parrafo{
-    font-size: 18px;
     text-align: justify;
 }
 
-.parrafo-texto{
-    padding:10px;
-    margin: 10px;
-}
 
 
 /*Main-Contacto*/
@@ -447,7 +417,7 @@ footer {
 
 /*Responsive Inicio*/
 
-@media (max-width:900px) {
+@media screen and (max-width:900px) {
     .menu {
         padding-top: 10px;
     }
@@ -520,18 +490,20 @@ footer {
         display: block;
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    .nosotros-img {
+        flex-direction: column;
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
