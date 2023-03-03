@@ -244,13 +244,14 @@ footer {
 /*Main-Planes*/
 
 .contenedor-planes {
-    width: 90%;
+    width: 100%;
     max-width: 900px;
     margin: auto;
-    height: 100vh;
+    padding: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     
 }
 
@@ -263,9 +264,10 @@ footer {
 
 .tabla-planes {
     width: 33%;
-    height: auto;
+    height: 550px;
     margin: auto;
     border: 1px solid #343759;
+    border-radius: 4px;
     box-shadow: 0px 0px 4px #343759;
     padding: 60px;
     text-align: center;
@@ -415,7 +417,7 @@ footer {
     display: none;
 }
 
-/*Responsive Inicio*/
+/*Responsive*/
 
 @media screen and (max-width:900px) {
     .menu {
@@ -428,7 +430,6 @@ footer {
     }
 
     nav {
-        background: #000;
         width: 100%;
         position: absolute;
         top: 45px;
@@ -493,6 +494,50 @@ footer {
     .nosotros-img {
         flex-direction: column;
     }
+
+    .tabla-planes {
+        width: 100%;
+        padding: 20px;
+        margin: 5px;
+    }
+
+    .texto-div-contacto {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .titulo-mini {
+        padding: 30px;
+        margin: 0;
+    }
+
+
+    .footer-content {
+        max-width: 77.5rem;
+        margin: auto;
+    }
+
+    .footer-content-about {
+        max-width: 51.3rem;
+        margin:  0 auto 5.4rem;
+    }
+
+    .footer-div{
+        display: flex;
+        justify-content:space-between;
+    }
+
+    .social-media {
+        width: 100%;
+        max-width: 27.3rem;
+        margin: 0 1rem;
+    }
+
+   .news-btn {
+       margin-left: 7.5rem;
+   }
+
+
 }
 
 
