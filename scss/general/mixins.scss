@@ -1,0 +1,16 @@
+/*Mixins*/
+
+@mixin mediaquery-mobile{
+	@media (max-width:900px){
+		@content;
+	}
+}
+
+header {
+	.menu-icon{
+		display: none;
+		@include mediaquery-mobile(){
+			display: block;
+		}
+	}
+}

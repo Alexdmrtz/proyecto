@@ -1,0 +1,81 @@
+/*Planes*/
+
+$color_1: #c2e71f;
+$color_2: #344759;
+$color_3: #f1f1f2;
+
+.contenedor-planes {
+	width: 100%;
+	max-width: 900px;
+	margin: auto;
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.titulo__planes {
+	margin: 30px 0;
+	background: #000;
+	color: $color_1;
+	padding: 20px 40px;
+}
+.tabla-planes {
+	width: 33%;
+	height: 550px;
+	margin: auto;
+	border: 1px solid #343759;
+	border-radius: 4px;
+	box-shadow: 0px 0px 4px #343759;
+	padding: 60px;
+	text-align: center;
+	color: $color_2;
+		h4 {
+			font-size: 30px;
+			margin-bottom: 35px;
+		}
+			img {
+				width: 64px;
+				margin-bottom: 35px;
+			}
+				h5 {
+					font-size: 30px;
+					margin-bottom: 20px;
+				}
+					p {
+						display: block;
+						margin-bottom: 20px;
+					}
+						&:hover {
+							background: #343759;
+							color: $color_3;
+							transition: .5s all;
+							transform: scale(1.1);
+							cursor: pointer;
+						}
+}
+
+$color_1: #343759;
+
+.boton {
+	display: inline-block;
+	width: 150px;
+	padding: 12px;
+	background: #a5f059;
+	text-decoration: none;
+	color: $color_1;
+	border-radius: 100px;
+	text-align: center;
+	font-size: 14px;
+	font-weight: 600;
+	margin: auto;
+}
+
+@media screen and (max-width:900px){
+	.tabla-planes {
+		width: 100%;
+		padding: 20px;
+		margin: 5px;
+	}
+}
+

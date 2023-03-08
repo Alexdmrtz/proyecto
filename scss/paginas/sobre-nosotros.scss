@@ -1,0 +1,12 @@
+/*Sobre Nosotros*/
+
+
+.nosotros {
+	text-align: justify;
+}
+
+@media screen and (max-width:900px) {
+	.nosotros-img {
+        flex-direction: column;
+    }
+}
