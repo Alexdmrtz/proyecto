@@ -399,3 +399,7 @@ footer {
 @media screen and (max-width: 900px) {
   .nosotros-img {
     flex-direction: column; } }
+
+.row {
+  --bs-gutter-x:0
+; }
